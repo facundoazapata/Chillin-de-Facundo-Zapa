@@ -12,23 +12,22 @@
 
 
 <body>
-    <div class="container">
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-                <svg class="bi me-2" width="40" height="32">
-                    <use xlink:href="#bootstrap"></use>
-                </svg>
-                <span class="fs-4">CHILLIN</span>
-            </a>
-
-            <ul class="nav nav-pills">
-                <li class="nav-item"><a href="index.html" class="nav-link" aria-current="page">Home</a></li>
-                <li class="nav-item"><a href="Hoddies.html" class="nav-link">Hoddies</a></li>
-                <li class="nav-item"><a href="Contacto.html" class="nav-link">Contacto</a></li>
-                <li class="nav-item"><a href="Quienessomos.html" class="nav-link">Quienes somos</a></li>
-                <li class="nav-item"><a href="Preguntasfrecuentes.html" class="nav-link">Preguntas Frecuentes</a></li>
-            </ul>
-        </header>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">CHILLIN</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="Hoddies.html">Hoddies</a>
+              <a class="nav-link" href="Contacto.html">Contacto</a>
+              <a class="nav-link" href="Quienessomos.html">Quienes somos</a>
+              <a class="nav-link" href="Preguntasfrecuentes.html">Preguntas frecuentes</a>
+            </div>
+          </div>
+        </div>
+      </nav>
         <main>
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Nombre</label>

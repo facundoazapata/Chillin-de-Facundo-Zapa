@@ -1,37 +1,88 @@
-body{
-    background-image: url(imagenes/fondoindex.jpeg);
+body {
+  background-image: url(imagenes/fondoindex.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.nav-link {
+  color: black;
+}
+
+section {
+  margin-left: 100px;
+  margin-right: 400px;
+}
+
+main {
+  margin-right: 400px;
+}
+
+.buzos {
+
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+
+}
+
+.compra {
+  font-size: 13.5px;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.93);
+}
+
+img {
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+img:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 762px) {
+  body {
+    background-image: url(Imagenes/img4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-}
 
-.nav-link{
+
+  }
+
+  section {
+    width: 100vw;
+    margin-left: 0px;
     color: black;
-}
+  }
 
-section{
-    margin-left: 100px;
-    margin-right: 400px;
-}
-main{
-    margin-right: 400px;
-}
-.buzos {
-    
-    text-align: center;
+  .form-control {
+    width: 200px;
+
+  }
+  .buzos{
+    text-align: left;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: auto;
-
-}
-.compra{
-    font-size: 13.5px;
-}
-footer{
+  }
+  footer {
     color: white;
     text-align: center;
-    position: absolute;
     bottom: 0;
     width: 100%;
+    position: relative;
+    margin-top: 10vw;
     background-color: rgba(0, 0, 0, 0.93);
+  }
 }
