@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "fondo.css",
+	"sources": [
+		"../scss/fondo.scss"
+	],
+	"sourcesContent": [
+		""
+	],
+	"names": [],
+	"mappings": ""
+}
