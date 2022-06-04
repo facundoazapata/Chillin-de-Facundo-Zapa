@@ -1,4 +1,10 @@
 @use "sass:footer.scss";
+$colores: (black, rgba(0, 0, 0, 0.93),white,)
+
+$primero:nth($colores, 1);
+$segundo:nth($colores, 2);
+$tercero:nth($colores, 3);
+
 body{
     background-image: url(imagenes/fondoindex.jpeg);
     background-repeat: no-repeat;
@@ -7,7 +13,7 @@ body{
 }
 
 .nav-link{
-    color: black;
+    color: $tercero;
 }
 
 section{
@@ -43,7 +49,7 @@ img{
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.93);
+    background-color: $segundo;
 }
 main{
   width: 50%;
